@@ -1,6 +1,11 @@
 spring:
   application:
     name: spring-boot-cognito
+  security:
+    oauth2:
+      resource-server:
+        jwt:
+          issuer-uri: https://cognito-idp.${AWS_DEFAULT_REGION}.amazonaws.com/${COGNITO_USER_POOL_ID}
 
 management:
   endpoint:

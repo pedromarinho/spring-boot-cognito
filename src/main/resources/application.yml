@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-boot-cognito
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  health:
+    diskspace:
+      enabled: false

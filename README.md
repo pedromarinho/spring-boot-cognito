@@ -1,0 +1,2 @@
+# Spring Boot with Amazon Cognito
+This Spring Boot application demonstrates how to integrate Spring Security with Amazon Cognito for authorization. It uses JWT tokens issued by Cognito to authorize users and map their Cognito groups to Spring Security roles.
